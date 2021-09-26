@@ -1,6 +1,7 @@
 # 2 Phase Commit Protocol
+The aim of the project is to implement the 2 Phase protocol for maintaining data consistency amongst all the server instances. Whenever a change takes place in the server, in this case, the modification of the dictionary data, the change must be made consistently across all the servers at the same time. The Coordinator is a server that is responsible for the implementation of the 2 Phase protocol. Its job is to make sure that all the servers commit data to the DB’s without any inconsistency. As part of the project the PUT and DELETE operations performed on the dictionary should be common across all the Serves while the GET operation on any of the Servers should retrieve the same result. Apart from the above core functionalities the code also takes care of logging each critical operation in both client and server with informative messages and timestamps for auditing and error debugging purposes.
 
-Steps for running the code:
+# Steps for running the code:
 Run the following commands from the project folder in a terminal.
 
 For Maven below are the steps:
