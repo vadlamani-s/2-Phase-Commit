@@ -1,4 +1,4 @@
-# BSDS_Project3
+# 2 Phase Commit Protocol
 
 Steps for running the code:
 Run the following commands from the project folder in a terminal.
